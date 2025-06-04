@@ -4,8 +4,13 @@
         <title>Portfolio-V1</title>
         <link rel="stylesheet" href="styles/header.css">
         <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles/general.css">
-        <link rel="stylesheet" href="styles/sections.css">
+        <link rel="stylesheet" href="styles/home-section.css">
+        <link rel="stylesheet" href="styles/aboutme-section.css">
+        <link rel="stylesheet" href="styles/skills-section.css">
+        <link rel="stylesheet" href="styles/projects-section.css">
+
     </head>
     <body>
         <header id="home" class="header">
@@ -27,32 +32,120 @@
                 </div>
             </nav>
         </header>       
-
         <section class="home">
-            <div class="my-name">
-                <h4 class="hello">Hello, I am</h4>
-                <h1 class="name"><span class="Adi">Adithya</span> <span class="naru">Narayan</span></h1>
-                <h1 class="job">Frontend Devoloper</h1>
-            </div>
-            <div class="accounts">
-                <div class="icons-link">
-                    <a href="https://github.com/AdithyaNarayann" target="_blank"><img class="icon-acc" src="link-icon/github-icon-256x256-0cytpfer.png"></a>
-                    <a href="https://www.linkedin.com/in/adithya-narayan-v-s-541a78271/" target="_blank"><img class="icon-accc" src="link-icon/linkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png.webp"></a>
-                    <a href="https://instagram.com/naruthegod/" target="_blank"><img class="icon-acc" src="link-icon/instagram-round-icon-png-14.jpg"></a>
+            <div class="home-left">
+                <div class="my-name">
+                    <h4 class="hello">Hello, I am</h4>
+                    <h1 class="name"><span class="Adi">Adithya</span> <span class="naru">Narayan</span></h1>
+                    <h1 class="job">Front&minus;end Devoloper</h1>
+                </div>
+                <div class="home-buttons">
+                    <div class="resume-link">
+                        <a href="sample-resume/Adithya_Narayan_Resume.pdf" target="_blank"><button class="resume-button">Download CV</button></a>
+                    </div>
+                    <div class="contact-link">
+                        <a href="#contact"><button class="contact-button">Contact Me</button></a>
+                    </div>
+                </div>
+                <div class="accounts">
+                    <div class="icons-link">
+                        <a href="https://github.com/AdithyaNarayann" target="_blank"><img class="icon-acc" src="link-icon/github-icon-256x256-0cytpfer.png"></a>
+                        <a href="https://www.linkedin.com/in/adithya-narayan-v-s-541a78271/" target="_blank"><img class="icon-accc" src="link-icon/linkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png.webp"></a>
+                        <a href="https://instagram.com/naruthegod/" target="_blank"><img class="icon-acc" src="link-icon/instagram-round-icon-png-14.jpg"></a>
+                    </div>
                 </div>
             </div>
-            <div class="my-pic">
+            <div class="home-right">
+                <div class="profile">
+                    <img class="my-pic" src="link-icon/totw_network_profile_400-oQiPth.jpeg">
+                </div>
+            </div>
+        </section>
+        <section id="about-me" class="aboutme">
+            <div class="aboutme-left">
+                <div class="about-head">
+                    <h4 class="about-head1">Get to know more</h4>
+                    <h1 class="about-head2">About Me</h1>   
+                </div>
+                <div class="pic">
+                    <img class="pic-square" src="link-icon/square-pic.png">
+                </div>
+            </div>
+            <div class="aboutme-right">
+                <div class="aboutme-content-div">
+                    <p class="aboutme-content">
+                        Hi, I'm a Computer Science Engineering student at Marian Engineering College, Kerala. I'm deeply interested in artificial intelligence and how it can be used to build intelligent systems that solve real-world problems. I'm currently learning web development and AI fundamentals, and I'm excited to build my own AI-based projects as I grow.
+                    </p>
+                </div>
+                <div class="aboutme-boxs"> 
+                    <div class="aboutme-experience">
+                        <img class="experience-icon" src="link-icon/experience.jpg">
+                        <p class="ex">Experience</p>
+                        <p class="ex1">404<br>Not Found</p>
+                    </div>
+                    <div class="aboutme-education">
+                        <img class="education-icon" src="link-icon/education.jpg">
+                        <p class="ed">Education</p>
+                        <p class="ed1">B.Tech in<br>Computer Science</p>
+                    </div>
+                </div>
 
             </div>
         </section>
-        <section id="about-me" class="about-me">
-            about-me
-        </section>
         <section id="skills" class="skills">
-            skills
+            <h1 class="span"><span class="span-my">My</span> <span class="span-skills">Skills</span></h1>
+            <div class="skills-container">
+                <div class="skills-left">
+                    <div class="lan-div"><img class="lan-icon" src="link-icon/languages.jpg"></div>
+                    <div class="skill-set">Languages</div>
+                    <div class="skill">&#9654; Python</div>
+                    <div class="skill">&#9654; C</div>
+                    <div class="skill">&#9654; HTML</div>
+                    <div class="skill">&#9654; CSS</div>
+                    <div class="skill">&#9654; JavaScript</div>
+                </div>
+                <div class="skills-middle">
+                    <div class="tool-div"><img class="tool-icon" src="link-icon/tools.jpg"></div>
+                    <div class="skill-set">Tools I Use</div>
+                    <div class="skill">&#9654; GitHub</div>
+                    <div class="skill">&#9654; VS Code</div>
+                    <div class="skill">&#9654; Jupyter Notebook</div>
+                </div>
+                <div class="skills-right">
+                    <div class="ai-div"><img class="ai-icon" src="link-icon/AI.jpg"></div>
+                    <div class="skill-set">AI &amp; ML</div>
+                    <div class="skill">&#9654; Python for AI</div>
+                    <div class="skill">&#9654; NumPy</div>
+                    <div class="skill">&#9654; Pandas</div>
+                    <div class="skill">&#9654; Matplotlib</div>
+                    <div class="skill">&#9654; Scikit-learn</div>
+                </div>
+            </div>
         </section>
         <section id="projects" class="projects">
-            projects
+            <div class="project-head">
+                <h1 class="head"><span class="latest">Latest</span> <span class="work">Works</span></h1>
+            </div>
+            <div class="project-container">
+                <div class="project">
+                    <div class="thumbnail-row">
+                        <img class="thumbnail" src="link-icon/yt-thu.png">
+                    </div> 
+                    <div class="project-desc">
+                        <div class="project-title">
+                            <h1 class="ytclone">YouTube Clone</h1>
+                        </div>
+                        <div class="project-view">
+                            <div class="project-git">
+                                <a href="https://github.com/AdithyaNarayann/YouTube-Clone-V1" target="_blank"><button class="git-link">GitHub</button></a>
+                            </div>
+                            <div class="project-live">
+                                <a href="" target="_blank"><button class="live-link">Run</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <section id="contact" class="contact">
             contact

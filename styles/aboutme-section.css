@@ -1,0 +1,87 @@
+.aboutme{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    
+}
+.aboutme-left{
+    margin-left: 80px;
+    padding-top: 20px;
+}
+.about-head{
+    margin: 0;
+}
+.about-head1{
+    margin-bottom: 0;
+    font-weight: 500;
+}
+.about-head2{
+    margin-top: 0;
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.pic{
+    margin-top: 0;
+}
+.pic-square{
+    width: 330px;
+    border-radius: 40px;
+}
+.aboutme-right{
+    padding-top: 130px;
+}
+.aboutme-content-div{
+    width: 560px;
+}
+.aboutme-content{
+    line-height: 1.65;
+}
+.aboutme-boxs{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 30px;
+    width: 560px;
+}
+.aboutme-education,
+.aboutme-experience{
+    text-align: center;
+    background-color: white;
+    border: 1px solid black;
+    width: 250px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 25px;
+    transition: all 0.15s;
+}
+.aboutme-education:hover,
+.aboutme-experience:hover{
+    transform: translateY(-5px);
+}
+.education-icon{
+    width: 20px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.experience-icon{
+    width: 15px;
+    margin: 0 ;
+    margin-bottom: 5px;
+}
+.ed,
+.ex{
+    margin: 0;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-family: arial;
+}
+.ed1,
+.ex1{
+    margin: 0;
+    font-weight: 500;
+    font-size: 14px;
+     
+    color: rgb(78, 78, 78);
+}

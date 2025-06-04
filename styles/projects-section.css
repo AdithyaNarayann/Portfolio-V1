@@ -1,0 +1,103 @@
+.projects{
+    padding-top: 1px;
+    margin-top: -12px;
+}
+.project-head{
+    padding-top: -20px;
+    padding-left: 50px;
+}
+.head{
+    font-size: 42px;
+    font-weight: 700;
+}
+.latest{
+
+}
+.work{
+    color: rgb(109, 109, 109);
+}
+.project-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 30px;
+    margin-top: 45px;
+    margin-left: 50px;
+}
+.project{
+    height: 370px;
+    width: 320px;
+    border-radius: 20px;
+    background-color: white;
+    padding-bottom: 10px;
+    transition: all 0.15s;
+    border: 1px solid black;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    
+}
+.thumbnail-row{
+    width: 400px;
+}   
+.thumbnail{
+    width: 250px;
+    height: 200px;
+    padding: 0;
+    margin-bottom: -30px;
+    margin-top: 18px;
+    margin-left: 34px;
+    transition: all 0.15s;
+    border-radius: 20px;
+}
+.project-desc{
+    width: 249px;
+    height: 130px;
+    margin-bottom: 0;
+    margin-top: 60px;
+    margin-left: 35px;
+    border-radius: 20px;
+    transition: all 0.15s;
+    margin-bottom: -20px;
+}
+.project-title{
+
+}
+.ytclone{
+    text-align: center;
+    font-size: 22px;
+    color: black;
+}
+.project-view{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 15px;
+
+}
+.project-git{
+
+}
+.project-live{
+
+}
+.git-link,
+.live-link{
+    width: 100px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    transition: all 0.15s;
+    font-size: 14px;
+}
+.project:hover{
+    transform: translateY(-5px) scale(1.03);
+}
+.git-link:hover,
+.live-link:hover{
+    transform: scale(1.1) translateY(-5px);
+    background-color: black;
+    color: white;
+}
