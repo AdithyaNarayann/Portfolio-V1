@@ -1,6 +1,7 @@
 .projects{
     padding-top: 1px;
     margin-top: -12px;
+    padding-bottom: 200px;
 }
 .project-head{
     padding-top: -20px;
@@ -93,7 +94,7 @@
     font-size: 14px;
 }
 .project:hover{
-    transform: translateY(-5px) scale(1.03);
+    transform: translateY(-3px) scale(1.02);
 }
 .git-link:hover,
 .live-link:hover{

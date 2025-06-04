@@ -1,0 +1,60 @@
+.contact{
+    padding-bottom: 240px;
+}
+.upper-sec{
+    padding-top: 40px;
+    padding-left: 80px;
+}
+.contact-title{
+
+}
+.get{
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.me{
+    font-size: 42px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.lower-sec{
+    
+}
+.box-div{
+    width: 550px;
+    height: 55px;
+    border: 1px solid black;
+    margin-left: 80px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 20px;
+    padding-top: 3px;
+    padding-left: 5px;
+    border-radius: 50px;
+    transition: all 0.15s;
+}
+.email,
+.linkedin{
+    display: flex;
+    flex-direction: row;
+    vertical-align: bottom;   
+}
+.email-icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 40px;
+    margin: 10px;
+}
+.linkedin-icon{
+    width: 40px;
+    height: 40px;
+    margin-top: 6px;
+    margin-right: 5px;
+    margin-left: -8px;
+}
+.box-div:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
